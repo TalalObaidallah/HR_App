@@ -9,7 +9,7 @@
 - for example request: Annual leave - emergency leave - sick leave - salary statement letter - Annual bonus .
 - employee's can request  write comments or details about the request and send to HR staff by application .
 - After employees fnished the request, will click send to HR staff then the employees will be waiting for the prove .
-- HR staff member when he joinning the app, will check the request of employee and give him a aprove or rejecte with reason then he will send to employee .
+- HR staff member when he joinning the app, will check the request of employee and give him a aprove or rejecte with reason then he will send to employee . 
 #########################################
 # User Story:-
 - As employee when he join his account .
@@ -20,7 +20,7 @@
 - As HR when he join his account .
 - HR office will check all requests of employees .
 - HR office give the request a aprove or reject .
-- As HR when he was rejected of request , should be give him the reason " why HR office reject the request ?" .
+- As HR when he was rejected of request , should be give him the reason " why HR office reject the request ?" . 
 ########################################
 # Example of users:-
 - employee users : 
