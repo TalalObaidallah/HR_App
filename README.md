@@ -23,15 +23,23 @@
 - As HR when he was rejected of request , should be give him the reason " why HR office reject the request ?" .
 ########################################
 # Example of users:-
-- employee users :
-1-user name: Ali22 
-user password: 12345
-2-user name: Bader33
-user password: 12345
+- employee users : 
+ 
+1-user name:
+Ali22 
+user password:
+12345 
+2-user name:
+Bader33
+user password:
+12345
 
-- HR user :
-1-user name: Talal
-user password:12345 
+- HR user : 
+ 
+1-user name:
+Talal
+user password: 
+12345 
 
 #######################################
 
