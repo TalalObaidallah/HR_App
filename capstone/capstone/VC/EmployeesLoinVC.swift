@@ -1,0 +1,45 @@
+//
+//  EmployeesLoinVC.swift
+//  capstone
+//
+//  Created by طلال عبيدالله دعيع القلادي on 08/12/2021.
+//
+
+import Foundation
+
+import FirebaseAuth
+import Firebase
+import UIKit
+
+class EMLoginViewController : UIViewController {
+    
+    @IBOutlet weak var nameUser: UITextField!
+    @IBOutlet weak var phoneNumber: UITextField!
+    @IBOutlet weak var email: UITextField!
+    @IBOutlet weak var password: UITextField!
+    @IBOutlet weak var mangerId: UITextField!
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+    }
+    @IBAction func EMloginButton(_ sender: HRLoginViewController) {
+        
+        Auth.auth().createUser(withEmail: email.text ?? "", password: password.text ?? "") { authResult, error in
+            if let error = error {
+                print(error)
+            } else {
+               
+                UserApi.addUser(name: self.nameUser.text ?? "", uid: authResult?.user.uid ?? "", phone: self.phoneNumber.text ?? "", email: self.email.text ?? "", isManger: false, idManager: self.mangerId.text ?? "") { check in
+                    if check {
+                        self.performSegue(withIdentifier: "second", sender: nil)
+                        print("Done saving in Database")
+                    } else {
+                        
+                    }
+                }
+            }
+            
+        }
+    }
+    
+}

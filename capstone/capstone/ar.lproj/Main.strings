@@ -1,0 +1,129 @@
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "0Tq-dk-tGg"; */
+"0Tq-dk-tGg.text" = "Label";
+
+/* Class = "UITextField"; placeholder = "Emile ... "; ObjectID = "0dB-4B-JmK"; */
+"0dB-4B-JmK.placeholder" = "البريد الألكتروني";
+
+/* Class = "UITextField"; placeholder = "User Name ..."; ObjectID = "0h4-wZ-8nZ"; */
+"0h4-wZ-8nZ.placeholder" = "أسم المستخدم";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "0ow-Ji-T4g"; */
+"0ow-Ji-T4g.placeholder" = "كلمة المرور";
+
+/* Class = "UILabel"; text = "Regester"; ObjectID = "2Qj-l8-Zss"; */
+"2Qj-l8-Zss.text" = "تسجيل جديد";
+
+/* Class = "UILabel"; text = "Name User"; ObjectID = "2Rz-K7-cao"; */
+"2Rz-K7-cao.text" = "أسم المستخدم";
+
+/* Class = "UIButton"; configuration.title = "Sign Out"; ObjectID = "2cI-Ra-gvb"; */
+"2cI-Ra-gvb.configuration.title" = "تسجيل خروج";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "2cI-Ra-gvb"; */
+"2cI-Ra-gvb.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "Sign Up"; ObjectID = "355-Dz-kNQ"; */
+"355-Dz-kNQ.configuration.title" = "تسجيل جديد";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "355-Dz-kNQ"; */
+"355-Dz-kNQ.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "Next"; ObjectID = "7Vh-71-PEp"; */
+"7Vh-71-PEp.configuration.title" = "التالي";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "7Vh-71-PEp"; */
+"7Vh-71-PEp.normalTitle" = "Button";
+
+/* Class = "UITextField"; placeholder = "Password ..."; ObjectID = "Dr7-My-5xR"; */
+"Dr7-My-5xR.placeholder" = "كلمة المرور";
+
+/* Class = "UILabel"; text = "Login"; ObjectID = "L7s-3f-jCV"; */
+"L7s-3f-jCV.text" = "تسجيل";
+
+/* Class = "UILabel"; text = "Profile"; ObjectID = "LEJ-r6-aWA"; */
+"LEJ-r6-aWA.text" = "الملف الشخصي";
+
+/* Class = "UIButton"; configuration.title = "Sign In"; ObjectID = "MQu-3S-LAK"; */
+"MQu-3S-LAK.configuration.title" = "تسجيل";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "MQu-3S-LAK"; */
+"MQu-3S-LAK.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Ozf-SW-nRH"; */
+"Ozf-SW-nRH.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "S5p-3F-ZIy"; */
+"S5p-3F-ZIy.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "Reject"; ObjectID = "U2D-Qa-wOT"; */
+"U2D-Qa-wOT.configuration.title" = "رفض";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "U2D-Qa-wOT"; */
+"U2D-Qa-wOT.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "123456"; ObjectID = "WhD-7M-r4e"; */
+"WhD-7M-r4e.text" = "123456";
+
+/* Class = "UILabel"; text = "Employees Request"; ObjectID = "XK8-8k-07t"; */
+"XK8-8k-07t.text" = "طلبات الموظف";
+
+/* Class = "UITextField"; placeholder = "Name ..."; ObjectID = "XRi-Rb-JNa"; */
+"XRi-Rb-JNa.placeholder" = "الأسم";
+
+/* Class = "UILabel"; text = "Pesonal Profile"; ObjectID = "a7c-kt-jZN"; */
+"a7c-kt-jZN.text" = "الملف الشخصي";
+
+/* Class = "UILabel"; text = "phone Number"; ObjectID = "brg-0I-b69"; */
+"brg-0I-b69.text" = "رقم الجوال";
+
+/* Class = "UILabel"; text = "Reason of Rejected"; ObjectID = "e8g-6b-Q3Z"; */
+"e8g-6b-Q3Z.text" = "سبب الرفض";
+
+/* Class = "UIButton"; configuration.title = "Send"; ObjectID = "eLA-xj-WLu"; */
+"eLA-xj-WLu.configuration.title" = "إرسال";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "eLA-xj-WLu"; */
+"eLA-xj-WLu.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "g7c-7a-khs"; */
+"g7c-7a-khs.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "hee-wM-z3b"; */
+"hee-wM-z3b.text" = "Label";
+
+/* Class = "UILabel"; text = "Emile"; ObjectID = "iB0-zf-wwY"; */
+"iB0-zf-wwY.text" = "الإيميل";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "kzx-8P-hov"; */
+"kzx-8P-hov.text" = "Label";
+
+/* Class = "UIButton"; configuration.title = "Admin"; ObjectID = "nfy-q3-jzL"; */
+"nfy-q3-jzL.configuration.title" = "الإداري";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "nfy-q3-jzL"; */
+"nfy-q3-jzL.normalTitle" = "Button";
+
+/* Class = "UITextField"; placeholder = "ID Manger ( if you are Manger)"; ObjectID = "o2m-xn-Kgh"; */
+"o2m-xn-Kgh.placeholder" = "إذا كنت ضمن الطاقم الإداري أدخل كلمة المرور ";
+
+/* Class = "UIButton"; configuration.title = "Aprove"; ObjectID = "qoO-wT-G6B"; */
+"qoO-wT-G6B.configuration.title" = "قبول";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "qoO-wT-G6B"; */
+"qoO-wT-G6B.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "tUa-lg-e2m"; */
+"tUa-lg-e2m.text" = "Label";
+
+/* Class = "UITextField"; placeholder = "Phone Number ... "; ObjectID = "u4o-Wz-zrz"; */
+"u4o-Wz-zrz.placeholder" = "رقم الجوال";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "x1Y-Gr-TYT"; */
+"x1Y-Gr-TYT.text" = "Label";
+
+/* Class = "UIButton"; configuration.title = "Leave Out"; ObjectID = "xkJ-4m-Jms"; */
+"xkJ-4m-Jms.configuration.title" = "تسجيل خروج";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "xkJ-4m-Jms"; */
+"xkJ-4m-Jms.normalTitle" = "Button";

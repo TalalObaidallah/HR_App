@@ -1,0 +1,22 @@
+/* 
+  Localizable.strings
+  capstone
+
+  Created by طلال عبيدالله دعيع القلادي on 12/12/2021.
+  
+*/
+"Personal type" ="قسم شؤون الموظفين";
+"Vacation type" = "قسم طلب الإجازات";
+"Annual Leave" = "طلب الإجازة السنوية";
+"Medical insurance" = "طلب تأمين طبي";
+"Experience certificate" = "طلب شهادة خبرة";
+"Pragnet leave" = "طلب إجازة الولادة";
+"Marriage leave" = "طلب إجازة الزواج";
+"Ticket" = "طلب تذاكر الطيران السنوية";
+"Emergency Leave" = "طلب الإجازة الإضطرارية";
+"Sick Leave" = "طلب الإجازة المرضية";
+"Salary Statement Letter" = "طلب شهادة تعريف راتب";
+"Annual bonus" = "طلب العلاوة السنوية";
+"The User Name or The Password is wrong." = "أسم المستخدم أو كلمة المرور غير صحيح";
+" You must check the user name and password " = "تأكد من صحة أسم المستخدم وكلمة المرور";
+"try again" = "حاول مره أخرى";
