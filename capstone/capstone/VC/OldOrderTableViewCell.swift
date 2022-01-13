@@ -1,22 +1,23 @@
 //
-//  OrderTableViewCell.swift
+//  OldOrderTableViewCell.swift
 //  capstone
 //
-//  Created by طلال عبيدالله دعيع القلادي on 15/12/2021.
+//  Created by طلال عبيدالله دعيع القلادي on 02/01/2022.
 //
 
 import UIKit
 import FirebaseAuth
 
-// Class table view cell of order label :-
+class OldOrderTableViewCell: UITableViewCell {
 
-class OrderTableViewCell: UITableViewCell {
-    @IBOutlet weak var orderLabel: UILabel!
+    @IBOutlet weak var oldOrderLabel: UILabel!
+    @IBOutlet weak var oldOrderImage: UIImageView!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
-
+        // Initialization code
     }
-    
+
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
 

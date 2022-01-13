@@ -6,11 +6,13 @@
 //
 
 import Foundation
+// struct employees :-
 struct Employee {
     var user2 : String
     var password2 : String
     
 }
+// struct of profile manager and employees :-
 struct profile {
     var name2 : String
     var age : Int

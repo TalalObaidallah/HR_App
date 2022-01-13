@@ -7,6 +7,7 @@
 
 import UIKit
 
+// Class of home table view cell name of profile :-
 class HomeTableViewCell: UITableViewCell {
 
     @IBOutlet weak var nameProfile: UILabel!

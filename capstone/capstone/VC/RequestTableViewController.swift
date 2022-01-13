@@ -6,11 +6,13 @@
 //
 
 import UIKit
-
+// class of request table view controller :-
 class RequestTableViewController: UITableViewController {
 
     @IBOutlet var nameRequest: UITableView!
     
+    
+    // all requests tableview in app :-
     let sectionRequest = ["Vacation type".localize,"Personal type".localize]
     
     let request1 = RequestName(name: "Annual Leave".localize)
@@ -31,6 +33,7 @@ class RequestTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        // append of requests in each section :-
         nameRequest.delegate = self
         nameRequest.dataSource = self
         
@@ -48,20 +51,22 @@ class RequestTableViewController: UITableViewController {
     }
 
     // MARK: - Table view data source
-
+// function of all request section :-
     override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
         return sectionRequest.count
     }
+    // function of title for header in section :-
     override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
         return sectionRequest[section]
     }
     
-
+// function of number of rows in section :-
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
         return type[section].count
     }
+    // function of cell for row at
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier:"cell", for: indexPath) as! HomeTableViewCell
         cell.nameProfile.text =
@@ -69,14 +74,16 @@ class RequestTableViewController: UITableViewController {
         
         return cell
     }
+    
+    // function of did select row at :-
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         selectedRequest =  type[indexPath.section][indexPath.row]
-        
+        // perform segue
         performSegue(withIdentifier: "detailsRequest", sender: nil)
     }
     
     
-    
+    // function prepare for segue :-
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "detailsRequest" {
             
@@ -87,6 +94,8 @@ class RequestTableViewController: UITableViewController {
     }
   
 }
+
+// extension of localization transfer for language :-
 extension String {
     var localize : String {
         return NSLocalizedString(self, comment: "")

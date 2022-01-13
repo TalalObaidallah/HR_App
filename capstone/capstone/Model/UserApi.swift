@@ -8,8 +8,9 @@
 import Foundation
 import FirebaseFirestore
 
+// calss user Api :-
 class UserApi {
-    
+    // function of add user
     static func addUser(name:String,uid:String,phone:String,email:String,isManger:Bool,idManager:String,completion: @escaping (Bool) -> Void) {
         
         let refUsers = Firestore.firestore().collection("Users")
@@ -20,6 +21,7 @@ class UserApi {
         completion(true)
         
     }
+    // function of get user :-
     static func getUser(uid:String,completion: @escaping (User) -> Void) {
        
         let refUsers = Firestore.firestore().collection("Users")

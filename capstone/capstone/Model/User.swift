@@ -7,6 +7,7 @@
 
 import Foundation
 import UIKit
+// class user :-
 class User {
     
     var name:String?
@@ -15,8 +16,9 @@ class User {
     var isManger:Bool?
     var idManager: String?
 }
+// extension user :-
 extension User {
-    
+    // function get user :-
     static func getUser(dict: [String: Any]) -> User {
        
         let user = User()
@@ -28,6 +30,7 @@ extension User {
         user.idManager = dict["idManager"] as? String
         return user
     }
+    // function create user :-
     static func CreateUser(phone:String,name:String,email:String,isManger:Bool,idManager:String) -> [String: Any] {
        
         let newUser = ["phone":phone,

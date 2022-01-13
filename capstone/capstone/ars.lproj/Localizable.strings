@@ -20,3 +20,20 @@
 "The User Name or The Password is wrong." = "أسم المستخدم أو كلمة المرور غير صحيح";
 " You must check the user name and password " = "تأكد من صحة أسم المستخدم وكلمة المرور";
 "try again" = "حاول مره أخرى";
+"Your Order its send" = "تم إرسال الطلب";
+"Done" = "تم إرسال الطلب";
+
+"name" = "الأسم";
+"title" = "الموضوع";
+
+"The Order Is send" = "تم إرسال الطلب";
+"please wait the answer" = "الرجاء إنتظار الرد من الإدارة";
+"Done" = "تم";
+"The Order Is Aproved" = "تم الموافقة على الطلب";
+" Order Of employee is Aproved By manager" = "تم إرسال الموافقة إلى الموظف";
+
+"Done" = "تم";
+
+" Order Of employee is rejected By manager" = "تم إرسال الرفض إلى الموظف";
+"The Order Is Rejected" = "تم الرفض على الطلب";
+"Done" = "تم";

@@ -12,7 +12,7 @@
 "0ow-Ji-T4g.placeholder" = "كلمة المرور";
 
 /* Class = "UILabel"; text = "Regester"; ObjectID = "2Qj-l8-Zss"; */
-"2Qj-l8-Zss.text" = "تسجيل جديد";
+"2Qj-l8-Zss.text" = "تسجيل جديد ";
 
 /* Class = "UILabel"; text = "Name User"; ObjectID = "2Rz-K7-cao"; */
 "2Rz-K7-cao.text" = "أسم المستخدم";
@@ -21,13 +21,13 @@
 "2cI-Ra-gvb.configuration.title" = "تسجيل خروج";
 
 /* Class = "UIButton"; normalTitle = "Button"; ObjectID = "2cI-Ra-gvb"; */
-"2cI-Ra-gvb.normalTitle" = "Button";
+"2cI-Ra-gvb.normalTitle" = "تسجيل خروج";
 
 /* Class = "UIButton"; configuration.title = "Sign Up"; ObjectID = "355-Dz-kNQ"; */
-"355-Dz-kNQ.configuration.title" = "تسجيل";
+"355-Dz-kNQ.configuration.title" = "تسجيل جديد";
 
 /* Class = "UIButton"; normalTitle = "Button"; ObjectID = "355-Dz-kNQ"; */
-"355-Dz-kNQ.normalTitle" = "Button";
+"355-Dz-kNQ.normalTitle" = "إذا لم يكون لديك حساب قم بالتسجيل ؟";
 
 /* Class = "UIButton"; configuration.title = "Next"; ObjectID = "7Vh-71-PEp"; */
 "7Vh-71-PEp.configuration.title" = "التالي";
@@ -39,7 +39,7 @@
 "Dr7-My-5xR.placeholder" = "كلمة المرور";
 
 /* Class = "UILabel"; text = "Login"; ObjectID = "L7s-3f-jCV"; */
-"L7s-3f-jCV.text" = "تسجيل دخول";
+"L7s-3f-jCV.text" = "دخول المستخدم ";
 
 /* Class = "UILabel"; text = "Profile"; ObjectID = "LEJ-r6-aWA"; */
 "LEJ-r6-aWA.text" = "الملف الشخصي";
@@ -48,7 +48,7 @@
 "MQu-3S-LAK.configuration.title" = "تسجيل دخول";
 
 /* Class = "UIButton"; normalTitle = "Button"; ObjectID = "MQu-3S-LAK"; */
-"MQu-3S-LAK.normalTitle" = "Button";
+"MQu-3S-LAK.normalTitle" = "تسجيل دخول";
 
 /* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Ozf-SW-nRH"; */
 "Ozf-SW-nRH.normalTitle" = "Button";
@@ -63,7 +63,7 @@
 "U2D-Qa-wOT.normalTitle" = "Button";
 
 /* Class = "UILabel"; text = "123456"; ObjectID = "WhD-7M-r4e"; */
-"WhD-7M-r4e.text" = "123456";
+"WhD-7M-r4e.text" = "";
 
 /* Class = "UILabel"; text = "Employees Request"; ObjectID = "XK8-8k-07t"; */
 "XK8-8k-07t.text" = "طلبات الموظف";
