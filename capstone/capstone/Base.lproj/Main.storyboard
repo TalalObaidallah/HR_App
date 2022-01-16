@@ -111,7 +111,6 @@
         <!--الطلبات السابقة-->
         <scene sceneID="6U4-KS-H2t">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="otZ-j0-R5G" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <tableViewController id="7Ww-Wd-KKb" customClass="OldOrder" customModule="capstone" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="Ibw-rk-Mfr">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
@@ -169,6 +168,7 @@
                         <outlet property="oldOrderTable" destination="Ibw-rk-Mfr" id="gCt-Zn-qTw"/>
                     </connections>
                 </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="otZ-j0-R5G" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1476.8115942028987" y="-236.38392857142856"/>
         </scene>
@@ -1058,7 +1058,6 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="aqg-Kx-5Ib"/>
         <segue reference="Snl-mN-vk0"/>
         <segue reference="YNR-MX-RJc"/>
     </inferredMetricsTieBreakers>
