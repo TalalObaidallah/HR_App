@@ -109,17 +109,16 @@
 		7703E668275F32BC00ED2798 /* capstone */ = {
 			isa = PBXGroup;
 			children = (
-				7707439627904543009AD065 /* New Group */,
-				7707438E2774B264009AD065 /* Assets.xcassets */,
-				7703E69C2761DF8500ED2798 /* VC */,
-				7703E6992761D80D00ED2798 /* Model */,
-				7703E669275F32BD00ED2798 /* AppDelegate.swift */,
-				7703E66B275F32BD00ED2798 /* SceneDelegate.swift */,
-				7794FF1027705C5E00A73835 /* Localizable.strings */,
-				7703E66F275F32BD00ED2798 /* Main.storyboard */,
-				7703E674275F32BE00ED2798 /* LaunchScreen.storyboard */,
 				7703E677275F32BE00ED2798 /* Info.plist */,
 				7703E67D275F918800ED2798 /* GoogleService-Info.plist */,
+				7707439627904543009AD065 /* Font */,
+				77C706D127954E75005A2634 /* Image file */,
+				7703E69C2761DF8500ED2798 /* VC */,
+				77C706D227954EAB005A2634 /* Cell */,
+				7703E6992761D80D00ED2798 /* Model */,
+				77C706D327954F01005A2634 /* API */,
+				77C706D427954F92005A2634 /* Localization */,
+				77C706D527954FCE005A2634 /* Main & Launch */,
 			);
 			path = capstone;
 			sourceTree = "<group>";
@@ -127,14 +126,13 @@
 		7703E6992761D80D00ED2798 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				7762D2F927662FC600E6FC8E /* RequestsApi.swift */,
 				7762D2F727662D1D00E6FC8E /* Requests.swift */,
-				7703E6972761D7A700ED2798 /* UserApi.swift */,
 				7703E69A2761D85E00ED2798 /* User.swift */,
 				7703E686276090AB00ED2798 /* HrManager.swift */,
 				7703E688276090EA00ED2798 /* Employee.swift */,
 				7762D2E72765CA1100E6FC8E /* RequestName.swift */,
-				7762D2EB2765D92C00E6FC8E /* RequestDetails.swift */,
+				7703E669275F32BD00ED2798 /* AppDelegate.swift */,
+				7703E66B275F32BD00ED2798 /* SceneDelegate.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -143,27 +141,69 @@
 			isa = PBXGroup;
 			children = (
 				77074392277B0745009AD065 /* OldOrder.swift */,
-				77074394278188CC009AD065 /* OldOrderTableViewCell.swift */,
 				7762D3012769DF0D00E6FC8E /* LastRequestViewController.swift */,
-				7762D2FF2769D87600E6FC8E /* OrderTableViewCell.swift */,
 				7762D2FD27677E3C00E6FC8E /* AproveOrReject.swift */,
 				7703E66D275F32BD00ED2798 /* ViewController.swift */,
 				7703E6932760D0AE00ED2798 /* HRLoginVC.swift */,
 				7703E6952760DD4300ED2798 /* EmployeesLoinVC.swift */,
 				7762D2E527621FC600E6FC8E /* EmpProfileVC.swift */,
 				7762D2E92765CB3800E6FC8E /* RequestTableViewController.swift */,
-				7762D2EF2765E9B900E6FC8E /* HomeTableViewCell.swift */,
+				7762D2EB2765D92C00E6FC8E /* RequestDetails.swift */,
 			);
 			path = VC;
 			sourceTree = "<group>";
 		};
-		7707439627904543009AD065 /* New Group */ = {
+		7707439627904543009AD065 /* Font */ = {
 			isa = PBXGroup;
 			children = (
 				770743972790459A009AD065 /* Almarai-Regular.ttf */,
 				7707439927904A5C009AD065 /* Almarai-Bold.ttf */,
 			);
-			path = "New Group";
+			path = Font;
+			sourceTree = "<group>";
+		};
+		77C706D127954E75005A2634 /* Image file */ = {
+			isa = PBXGroup;
+			children = (
+				7707438E2774B264009AD065 /* Assets.xcassets */,
+			);
+			path = "Image file";
+			sourceTree = "<group>";
+		};
+		77C706D227954EAB005A2634 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				7762D2EF2765E9B900E6FC8E /* HomeTableViewCell.swift */,
+				7762D2FF2769D87600E6FC8E /* OrderTableViewCell.swift */,
+				77074394278188CC009AD065 /* OldOrderTableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		77C706D327954F01005A2634 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				7703E6972761D7A700ED2798 /* UserApi.swift */,
+				7762D2F927662FC600E6FC8E /* RequestsApi.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		77C706D427954F92005A2634 /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				7794FF1027705C5E00A73835 /* Localizable.strings */,
+			);
+			path = Localization;
+			sourceTree = "<group>";
+		};
+		77C706D527954FCE005A2634 /* Main & Launch */ = {
+			isa = PBXGroup;
+			children = (
+				7703E66F275F32BD00ED2798 /* Main.storyboard */,
+				7703E674275F32BE00ED2798 /* LaunchScreen.storyboard */,
+			);
+			path = "Main & Launch";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
